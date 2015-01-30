@@ -17,18 +17,14 @@ int main(int argc , char *argv[])
 	int size = argc;
 	int i;
 
-	printf("Program 1 for CS 3060 by Eric Shields\n");
+	printf("Assignment 1 by Eric Shields\n");
 
 	for(i = 0; i < size; i++)
 	{
-		printf("Argument #");
-		printf("%d",i);
-		printf(": ");
-		printf("%s", argv[i]);
-		printf("\n");
+		printf("Argument #%d:%s\n", i, argv[i]);
+
 	}
-	printf("Number of arguments printed:");
-	printf("%d\n", size);
+	printf("Number of arguments printed:%d\n", size);
 
 	return 0;
 }
